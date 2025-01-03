@@ -4,6 +4,10 @@ build-backend = "hatchling.build"
 
 [project]
 name = "elastic_extension"
+description = "Jupyter Externsion for ElasticNotebook"
+authors = [
+    { name = "ryutarom", email = "m2002r1028@icloud.com" }
+]
 readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.8"
@@ -24,7 +28,7 @@ classifiers = [
 ]
 dependencies = [
 ]
-dynamic = ["version", "description", "authors", "urls", "keywords"]
+dynamic = ["version", "urls"]
 
 [tool.hatch.version]
 source = "nodejs"
